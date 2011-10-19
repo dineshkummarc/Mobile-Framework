@@ -17,4 +17,5 @@ TODO
 * Get a HTML front-end template in place (inc. designs/css)
 * Work on abstracting the Publisher/Subscriber Js code into an AMD compatible module
 * Start structuring a touch event system around the Pub/Sub.
+* Consider options for using templates for front-end insertion (e.g. Mustache.js or home grown basic template engine)
 * Loads of other things I've not yet considered that will come back and bite me in the ass

@@ -1,0 +1,29 @@
+html, body, .container {
+	height: 100%;
+}
+
+body {
+	background-color: #DDD;
+	font: normal small Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #C00;
+}
+
+.body {
+	
+}
+
+.footer {
+	background-color: #333;
+	bottom: 0;
+	width: 100%;
+}
+
+.header,
+.footer > div {
+	padding: 1.5%
+}

@@ -7,15 +7,21 @@ var app = {
 	init: function() {
 	
 		var win = $(window),
-			body = $('.body');
+			body = $('.body'),
+			hash = History.getHash();
 		
 		// If no support for HTML5 History API then check the url #hash
 		if (!app.history_support) {
-			console.log('Has user loaded a bookmark with hash already set? ', History.getHash(), ' - if so then we need to load the relevant state');
+			// Check if the user has loaded a bookmark with hash already set.
+			// If so then we need to load the relevant state data.
+			if (hash.length > 0) {
+				alert('Grab the hash…\n\n' + hash + '\n\n…and load the relevant data associated with it');
+			}
+			
 			// This is the same as the onhashchange
 			win.on('anchorchange', function(e){
 				// Get the hash and load the relevant data
-				console.log(History.getHash());
+				alert(History.getHash());
 			});
 		} else {
 			// This is the same as the onpopstate

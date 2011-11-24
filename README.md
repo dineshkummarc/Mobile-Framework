@@ -4,6 +4,8 @@
 Description
 -----------
 
+This is an attempt at a mobile web app framework (we're not trying to create a 'mobile first' mobile friendly site).
+
 I don't intend this to go anywhere as I can't feasible try and attempt what jQuery Mobile is doing by targeting as many devices as possible, so the only alternative would be to build a framework that works within the realm of WebKit based devices (with the understanding that all WebKit mobile engines are not the same), but then why not just use something like ZeptoJs which is built by the very talented Thomas Fuch?
 
 Hence why I don't see this as anything more than a learning experience.
